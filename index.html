@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop&Art - Maquette Avancée</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Pop&Art</div>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Bienvenue dans l'univers de Pop&Art</h1>
+            <p>Découvrez des objets de collection inspirés de la pop culture pour une décoration unique et originale.</p>
+            <button onclick="document.getElementById('contact').scrollIntoView();">Contactez-nous</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>À propos de nous</h2>
+            <p>Pop&Art propose des objets de collection uniques, inspirés de la pop culture et fabriqués artisanalement. Nos produits, de haute qualité, reflètent des univers iconiques et sont disponibles en éditions limitées.</p>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Nos Produits</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <h3>Produit 1</h3>
+                    <p>Description détaillée du produit inspiré de Studio Ghibli.</p>
+                    <img src="https://via.placeholder.com/300" alt="Produit 1">
+                    <button>Acheter</button>
+                </div>
+                <div class="product-item">
+                    <h3>Produit 2</h3>
+                    <p>Produit inspiré de l’univers Zelda.</p>
+                    <img src="https://via.placeholder.com/300" alt="Produit 2">
+                    <button>Acheter</button>
+                </div>
+                <div class="product-item">
+                    <h3>Produit 3</h3>
+                    <p>Produit inspiré de l’univers Assassin’s Creed.</p>
+                    <img src="https://via.placeholder.com/300" alt="Produit 3">
+                    <button>Acheter</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form action="#" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="product">Produit :</label>
+                <select id="product" name="product" required>
+                    <option value="produit1">Produit 1</option>
+                    <option value="produit2">Produit 2</option>
+                    <option value="produit3">Produit 3</option>
+                </select>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>FAQ</h2>
+            <div class="faq-item">
+                <h3>Quels types de produits proposez-vous ?</h3>
+                <p>Nous proposons des objets de collection inspirés de l’univers pop, tels que des sculptures et des bijoux décoratifs.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Comment puis-je commander un produit ?</h3>
+                <p>Utilisez notre formulaire de contact pour passer commande ou obtenez plus d’informations.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Pop&Art. Tous droits réservés.</p>
+        <p>Suivez-nous sur les réseaux sociaux.</p>
+    </footer>
+</body>
+</html>
